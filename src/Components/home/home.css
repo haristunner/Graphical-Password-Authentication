@@ -1,0 +1,35 @@
+
+.home{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(bg3.jpg);
+    /* background-repeat: no-repeat; */
+
+    height: 100vh;
+}
+/* h1{
+    color: gold;
+} */
+
+.home__btns{
+    margin: 10% 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* text-align: center; */
+}
+#home__btn{
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#home__btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px aqua solid;
+}

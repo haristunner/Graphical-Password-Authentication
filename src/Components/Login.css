@@ -1,0 +1,50 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .reg__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .reg__input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reg__input > input {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+  }
+  
+  .reg__submit {
+    border: 1px solid #007bff;
+    color: #007bff;
+    width: 300px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .reg__submit:hover{
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+  }
+  
+  .reg__login {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 10px;
+    width: 300px;
+    padding: 5px 5px;
+    border: 1px solid #6c757d;
+    background-color: #6c757d;
+  }
+  

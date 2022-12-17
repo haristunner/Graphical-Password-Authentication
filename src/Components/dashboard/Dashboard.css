@@ -1,0 +1,22 @@
+.db{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(bg3.jpg);
+    height: 100vh;
+}
+
+#db__btn{
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#db__btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px aqua solid;
+}
